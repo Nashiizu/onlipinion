@@ -1,5 +1,22 @@
-h1 {
-    color: #3CA6A6;
-    margin-left: 5px;
+.titulo {
+    color: #F2E3D5;
     font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    color: #F2E3D5;
+    display: flex;
+    justify-content: space-between;
+    align-items: 'center';
+
+    ul {
+        font-size: 15px;
+        font-weight: bold;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: 'center';
+    }
 }
