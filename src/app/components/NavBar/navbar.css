@@ -1,22 +1,51 @@
-.titulo {
-    color: #F2E3D5;
-    font-size: 30px;
+.navbar {
+    height: 75px;
+    background-color: #031017;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav {
-    color: #F2E3D5;
-    display: flex;
-    justify-content: space-between;
-    align-items: 'center';
+.navbar-logo {
+    margin-right: 5px;
+}
 
-    ul {
-        font-size: 15px;
-        font-weight: bold;
-        list-style: none;
-        display: flex;
-        justify-content: space-between;
-        align-items: 'center';
-    }
+.navbar-onlipinion {
+    margin-right: 30px;
+    color: #3CA6A6;
+    font-size: 30px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.navbar-categorias {
+    margin-right: 30px;
+    color: #F2E3D5;
+    font-size: 10px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.navbar-recomendacoes {
+    margin-right: 30px;
+    color: #F2E3D5;
+    font-size: 10px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.navbar-sobre {
+    margin-right: 30px;
+    color: #F2E3D5;
+    font-size: 10px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.navbar-contato {
+    color: #F2E3D5;
+    font-size: 10px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
 }
