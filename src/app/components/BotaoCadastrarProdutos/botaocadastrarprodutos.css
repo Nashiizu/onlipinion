@@ -1,0 +1,17 @@
+.botao-cadastrar-produtos {
+    position: absolute;
+    margin-left: 30px ;
+    top: 345px;
+    left: 250px;
+    height: 40px;
+    width: 150px;
+    border: 0 solid #F2E3D5;
+    border-radius: 100px;
+    background-color: #3CA6A6;
+    color: #F2E3D5;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    cursor: pointer;
+}

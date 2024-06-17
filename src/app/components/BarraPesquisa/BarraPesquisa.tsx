@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Image from "next/image";
-import Lupa from "../../../img/Lupa.png";
+import Lupa from "../../../imagens/Lupa.png";
 import "../../components/BarraPesquisa/barrapesquisa.css"
 
 const BarraPesquisa = () => {
@@ -26,7 +26,7 @@ const BarraPesquisa = () => {
         onChange={handleChange}
         className="pesquisar-input"
       />
-      <Image className="lupa" src={Lupa} alt="Lupa"/>
+      <Image className="lupa" src={Lupa} alt="Lupa" />
     </form>
   );
 };

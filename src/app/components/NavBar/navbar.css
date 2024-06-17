@@ -1,7 +1,10 @@
 .navbar {
-    position: fixed; /* Fixa a barra de navegação */
-    top: 0;          /* Fixa no topo da página */
-    width: 100%;     /* Faz a barra ocupar toda a largura da página */
+    position: fixed;
+    /* Fixa a barra de navegação */
+    top: 0;
+    /* Fixa no topo da página */
+    width: 100%;
+    /* Faz a barra ocupar toda a largura da página */
     z-index: 1000;
     height: 75px;
     background-color: #031017;
@@ -69,9 +72,8 @@
     border-radius: 100px;
     background-color: #3CA6A6;
     color: #F2E3D5;
-    inline-size: 150px;
+    inline-size: 60px;
     text-align: center;
-    inline-size: 150px;
     font-size: 10px;
     font-family: 'Ubuntu';
     font-weight: bold;
