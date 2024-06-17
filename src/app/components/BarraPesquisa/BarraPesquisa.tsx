@@ -26,7 +26,7 @@ const BarraPesquisa = () => {
         onChange={handleChange}
         className="pesquisar-input"
       />
-      <Image className="Lupa" src={Lupa} alt="Lupa"/>
+      <Image className="lupa" src={Lupa} alt="Lupa"/>
     </form>
   );
 };
