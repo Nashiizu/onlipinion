@@ -1,5 +1,4 @@
 import Logo from "../../../img/Logo.png";
-import Lupa from "../../../img/Lupa.png";
 import Image from "next/image";
 import "./navbar.css"
 import BarraPesquisa from "../BarraPesquisa/BarraPesquisa";
