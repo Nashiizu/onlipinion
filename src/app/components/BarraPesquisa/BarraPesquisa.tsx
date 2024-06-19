@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Image from "next/image";
-import Lupa from "../../../imagens/Lupa.png";
+import Lupa from "../../../../src/assets/img/Lupa.png";
 import "../../components/BarraPesquisa/barrapesquisa.css"
 
 const BarraPesquisa = () => {

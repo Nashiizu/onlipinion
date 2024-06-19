@@ -1,4 +1,4 @@
-import Logo from "../../../imagens/Logo.png";
+import Logo from "../../../../src/assets/img/Logo.png";
 import Image from "next/image";
 import "./navbar.css"
 import BarraPesquisa from "../BarraPesquisa/BarraPesquisa";
