@@ -6,7 +6,7 @@ import TextoBanner from "../components/TextoBanner/TextoBanner";
 import BotaoAvaliacoes from "../components/BotaoAvaliacoes/BotaoAvaliacoes";
 import BotaoCadastrarProdutos from "../components/BotaoCadastrarProdutos/BotaoCadastrarProdutos"
 
-export default function Home() {
+export default function PaginaInicial() {
   return (
     <div>
       <NavBar />

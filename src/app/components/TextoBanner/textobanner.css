@@ -2,7 +2,7 @@
     position: absolute;
     color: #F2E3D5;
     top: 150px;
-    left: 150px;
+    left: 100px;
     font-family: 'Ubuntu';
     font-size: 50px;
     font-weight: bold;
@@ -15,7 +15,7 @@
     position: absolute;
     color: #3CA6A6;
     top: 270px;
-    left: 150px;
+    left: 100px;
     font-family: 'Ubuntu';
     font-size: 25px;
     font-style: italic
