@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Image from "next/image";
 import Lupa from "../../../../src/assets/img/Lupa.png";
-import "../../components/BarraPesquisa/barrapesquisa.css"
+import "./barrapesquisa.css"
 
 const BarraPesquisa = () => {
   const [searchTerm, setSearchTerm] = useState('');
