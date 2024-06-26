@@ -7,6 +7,7 @@ import BotaoAvaliacoes from "../components/BotaoAvaliacoes/BotaoAvaliacoes";
 import BackgroundBranco from "../components/BackgroundBranco/BackgroundBranco"
 import TextoBrackgroundBranco from "../components/TextoBackgroundBranco/TextoBackgroundBranco"
 import BotaoCadastrarProdutos from "../components/BotaoCadastrarProdutos/BotaoCadastrarProdutos"
+import Carrossel from "../components/Carrossel/Carrossel";
 
 function PaginaInicial() {
   return (
@@ -18,6 +19,7 @@ function PaginaInicial() {
       <BackgroundBranco/>
       <TextoBrackgroundBranco/>
       <BotaoCadastrarProdutos/>
+      <Carrossel/>
     </div>
   );
 }
