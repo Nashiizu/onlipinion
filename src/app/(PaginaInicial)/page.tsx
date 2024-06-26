@@ -4,9 +4,9 @@ import NavBar from "../components/NavBar/NavBar";
 import Banner from "../components/Banner/Banner";
 import TextoBanner from "../components/TextoBanner/TextoBanner";
 import BotaoAvaliacoes from "../components/BotaoAvaliacoes/BotaoAvaliacoes";
-import BotaoCadastrarProdutos from "../components/BotaoCadastrarProdutos/BotaoCadastrarProdutos"
 import BackgroundBranco from "../components/BackgroundBranco/BackgroundBranco"
 import TextoBrackgroundBranco from "../components/TextoBackgroundBranco/TextoBackgroundBranco"
+import BotaoCadastrarProdutos from "../components/BotaoCadastrarProdutos/BotaoCadastrarProdutos"
 
 export default function PaginaInicial() {
   return (
@@ -14,9 +14,9 @@ export default function PaginaInicial() {
       <NavBar />
       <Banner />
       <TextoBanner />
-      <TextoBrackgroundBranco></TextoBrackgroundBranco>
       <BotaoAvaliacoes></BotaoAvaliacoes>
       <BackgroundBranco></BackgroundBranco>
+      <TextoBrackgroundBranco></TextoBrackgroundBranco>
       <BotaoCadastrarProdutos></BotaoCadastrarProdutos>
     </div>
   );
