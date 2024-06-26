@@ -8,16 +8,18 @@ import BackgroundBranco from "../components/BackgroundBranco/BackgroundBranco"
 import TextoBrackgroundBranco from "../components/TextoBackgroundBranco/TextoBackgroundBranco"
 import BotaoCadastrarProdutos from "../components/BotaoCadastrarProdutos/BotaoCadastrarProdutos"
 
-export default function PaginaInicial() {
+function PaginaInicial() {
   return (
     <div>
-      <NavBar />
-      <Banner />
-      <TextoBanner />
-      <BotaoAvaliacoes></BotaoAvaliacoes>
-      <BackgroundBranco></BackgroundBranco>
-      <TextoBrackgroundBranco></TextoBrackgroundBranco>
-      <BotaoCadastrarProdutos></BotaoCadastrarProdutos>
+      <NavBar/>
+      <Banner/>
+      <TextoBanner/>
+      <BotaoAvaliacoes/>
+      <BackgroundBranco/>
+      <TextoBrackgroundBranco/>
+      <BotaoCadastrarProdutos/>
     </div>
   );
 }
+
+export default PaginaInicial;
