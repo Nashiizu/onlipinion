@@ -1,7 +1,7 @@
 import Logo from "../../../../src/assets/img/Logo.png";
 import Image from "next/image";
 import "./navbar.css"
-import BarraPesquisa from "../BarraPesquisa/BarraPesquisa";
+import SearchBar from "../SearchBar/SearchBar";
 import BotaoLogin from "../BotaoLogin/BotaoLogin";
 
 const Navbar = () => {
@@ -13,8 +13,8 @@ const Navbar = () => {
       <div className="navbar-recomendacoes">RECOMENDAÇÕES</div>
       <div className="navbar-sobre">SOBRE</div>
       <div className="navbar-contato">CONTATO</div>
-      <BotaoLogin></BotaoLogin>
-      <BarraPesquisa></BarraPesquisa>
+      <BotaoLogin />
+      <SearchBar />
     </nav>
   );
 };

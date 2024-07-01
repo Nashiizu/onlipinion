@@ -29,3 +29,9 @@ body {
     display: flex;
     overflow-x: auto;
 }
+
+.carrossel {
+    position: absolute;
+    top: 1500px;
+    left: 150px;
+}

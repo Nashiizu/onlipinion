@@ -2,9 +2,9 @@
 import { useState } from 'react';
 import Image from "next/image";
 import Lupa from "../../../../src/assets/img/Lupa.png";
-import "./barrapesquisa.css"
+import "./searchbar.css"
 
-const BarraPesquisa = () => {
+const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleChange = (event: any) => {
@@ -31,4 +31,4 @@ const BarraPesquisa = () => {
   );
 };
 
-export default BarraPesquisa;
+export default SearchBar;
